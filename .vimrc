@@ -39,6 +39,10 @@ silent! helptags ALL
 call plug#begin()
 " python jinja2 syntax
 Plug 'lepture/vim-jinja'
+" autoclosign tags, parentheses, quotes
+Plug 'tpope/vim-surround'
+" python autocomplete
+Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 "vim-jinja config
